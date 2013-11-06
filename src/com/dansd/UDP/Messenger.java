@@ -58,6 +58,7 @@ public class Messenger {
         clientSocket.close();
         }
 
+    //User should override this
     public void onResponse(String response){
         System.out.println("RESPONSE: "+response);
     }
