@@ -15,10 +15,11 @@ public class Server {
     public static void main(String args[]) throws Exception{
         int thisPort = 9876;
         DatagramSocket serverSocket = new DatagramSocket(thisPort);
-        byte[] receiveData = new byte[1024];
-        byte[] sendData = new byte[24];
+
         System.out.println("Listening to port "+ thisPort);
         while(true){
+            byte[] receiveData = new byte[1024];
+            byte[] sendData = new byte[24];
             DatagramPacket receivePacket = new DatagramPacket(receiveData, receiveData.length);
             serverSocket.receive(receivePacket);
             String receivedString = new String(receivePacket.getData());

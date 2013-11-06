@@ -16,10 +16,10 @@ import java.net.InetAddress;
 public class Client {
     public static void main(String args[]) throws Exception{
         String data = "";
-
-        while(!data.equals("bye")){
+        while(true){
             BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
             data = br.readLine();
+            if(data.equals("bye")){break}
             int thisPort = 9876;
             System.out.println("Sending");
             DatagramSocket clientSocket = new DatagramSocket();
