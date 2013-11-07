@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="UDPLib:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/UDPLib_jar</output-path>
+    <root id="archive" name="UDPLib.jar">
+      <element id="module-output" name="UDPLib" />
+    </root>
+  </artifact>
+</component>

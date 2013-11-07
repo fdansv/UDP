@@ -25,8 +25,8 @@ public class Server extends Thread{
     }
 
     //User should override this
-    public String onRequest(String reqString){
-        String response = "";
+    public byte[] onRequest(byte[] reqString){
+        byte[] response = "".getBytes();
         System.out.println("RECEIVED: " + reqString);
         return response;
     }
@@ -48,12 +48,10 @@ public class Server extends Thread{
             } catch (IOException e) {
                 e.printStackTrace();  //To change body of catch statement use File | Settings | File Templates.
             }
-            String receivedString = new String(receivePacket.getData());
-
+            receiveData = receivePacket.getData();
             InetAddress IPAddress = receivePacket.getAddress();
             int port = receivePacket.getPort();
-            String responseString = onRequest(receivedString);
-            sendData = responseString.getBytes();
+            sendData = onRequest(receiveData);
             DatagramPacket responsePacket = new DatagramPacket(sendData, sendData.length, IPAddress, port);
             try {
                 serverSocket.send(responsePacket);

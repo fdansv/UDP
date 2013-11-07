@@ -1,14 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="UDPLib:jar" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="ad052d89-4fdc-4acd-8da2-b2f9c6b314bb" name="Default" comment="" />
     <ignored path="udpTest.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/UDPTest.java" changelist="ad052d89-4fdc-4acd-8da2-b2f9c6b314bb" time="1383761985054" ignored="false" />
     <file path="/fragment.java" changelist="ad052d89-4fdc-4acd-8da2-b2f9c6b314bb" time="1383757931120" ignored="false" />
-    <file path="/Server.java" changelist="ad052d89-4fdc-4acd-8da2-b2f9c6b314bb" time="1383761686865" ignored="false" />
+    <file path="/Server.java" changelist="ad052d89-4fdc-4acd-8da2-b2f9c6b314bb" time="1383832395109" ignored="false" />
     <file path="/Client.java" changelist="ad052d89-4fdc-4acd-8da2-b2f9c6b314bb" time="1383757481427" ignored="false" />
-    <file path="$PROJECT_DIR$/../coketruck/src/co/uk/images/coketruck/MainActivity.java" changelist="ad052d89-4fdc-4acd-8da2-b2f9c6b314bb" time="1383758786486" ignored="false" />
+    <file path="$PROJECT_DIR$/../coketruck/src/co/uk/images/coketruck/MainActivity.java" changelist="ad052d89-4fdc-4acd-8da2-b2f9c6b314bb" time="1383832567416" ignored="false" />
+    <file path="/MainActivity.java" changelist="ad052d89-4fdc-4acd-8da2-b2f9c6b314bb" time="1383832561488" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,10 +75,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="UDPTest.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="UDPTest.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/dansd/UDP/UDPTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="55" selection-start="694" selection-end="694" vertical-scroll-proportion="0.62240666">
+            <state line="22" column="44" selection-start="683" selection-end="683" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -81,16 +87,16 @@
       <file leaf-file-name="Messenger.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/dansd/UDP/Messenger.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="64" column="52" selection-start="2165" selection-end="2165" vertical-scroll-proportion="0.0">
+            <state line="64" column="0" selection-start="2165" selection-end="2165" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Server.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="Server.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/dansd/UDP/Server.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="23" selection-start="529" selection-end="529" vertical-scroll-proportion="0.0">
+            <state line="53" column="51" selection-start="1702" selection-end="1702" vertical-scroll-proportion="0.69283277">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -111,16 +117,16 @@
         <option value="$PROJECT_DIR$/src/com/dansd/UDP/Client.java" />
         <option value="$PROJECT_DIR$/src/com/dansd/UDP/Listener.java" />
         <option value="$PROJECT_DIR$/src/com/dansd/UDP/Messenger.java" />
-        <option value="$PROJECT_DIR$/src/com/dansd/UDP/Server.java" />
         <option value="$PROJECT_DIR$/src/com/dansd/UDP/UDPTest.java" />
+        <option value="$PROJECT_DIR$/src/com/dansd/UDP/Server.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="38" />
-    <option name="y" value="47" />
-    <option name="width" value="1232" />
-    <option name="height" value="836" />
+    <option name="x" value="422" />
+    <option name="y" value="22" />
+    <option name="width" value="1146" />
+    <option name="height" value="953" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -136,7 +142,7 @@
     <option name="STATE" value="0" />
   </component>
   <component name="ProjectView">
-    <navigator proportions="" version="1" splitterProportion="0.5">
+    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -147,17 +153,72 @@
       <autoscrollFromSource />
       <sortByType />
     </navigator>
-    <panes />
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="udpTest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="udpTest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="udpTest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="udpTest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="udpTest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="udpTest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="udpTest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="UDP" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+    </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="GoToFile.includeJavaFiles" value="false" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="OverrideImplement.combined" value="true" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="MemberChooser.sorted" value="false" />
     <property name="recentsLimit" value="5" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="restartRequiresConfirmation" value="true" />
@@ -305,8 +366,8 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="38" y="47" width="1232" height="836" extended-state="0" />
-    <editor active="false" />
+    <frame x="422" y="22" width="1146" height="953" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -321,8 +382,8 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.248503" sideWeight="0.67114097" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2877095" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26454544" sideWeight="0.7527011" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24729893" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -432,26 +493,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/dansd/UDP/Server.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="23" selection-start="529" selection-end="529" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/dansd/UDP/Messenger.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="64" column="52" selection-start="2165" selection-end="2165" vertical-scroll-proportion="0.0">
+        <state line="64" column="0" selection-start="2165" selection-end="2165" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/dansd/UDP/UDPTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="55" selection-start="694" selection-end="694" vertical-scroll-proportion="0.62240666">
+        <state line="22" column="44" selection-start="683" selection-end="683" vertical-scroll-proportion="0.0">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/dansd/UDP/Server.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="53" column="51" selection-start="1702" selection-end="1702" vertical-scroll-proportion="0.69283277">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -461,10 +522,12 @@
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
+          <last-edited>UDPLib:jar</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>
@@ -484,6 +547,7 @@
       </state>
       <state key="GlobalLibrariesConfigurable.UI">
         <settings>
+          <last-edited>core</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -507,12 +571,11 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>udpTest</last-edited>
+          <last-edited>UDPLib</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>
