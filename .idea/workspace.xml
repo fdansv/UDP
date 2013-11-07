@@ -16,6 +16,7 @@
     <file path="$PROJECT_DIR$/../coketruck/src/co/uk/images/coketruck/MainActivity.java" changelist="ad052d89-4fdc-4acd-8da2-b2f9c6b314bb" time="1383834916764" ignored="false" />
     <file path="/MainActivity.java" changelist="ad052d89-4fdc-4acd-8da2-b2f9c6b314bb" time="1383834913067" ignored="false" />
     <file path="$PROJECT_DIR$/../coketruck/src/co/uk/images/coketruck/ImageInfo.java" changelist="ad052d89-4fdc-4acd-8da2-b2f9c6b314bb" time="1383834690394" ignored="false" />
+    <file path="/Messenger.java" changelist="ad052d89-4fdc-4acd-8da2-b2f9c6b314bb" time="1383837899413" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,19 +86,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Messenger.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="Messenger.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/dansd/UDP/Messenger.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="64" column="0" selection-start="2165" selection-end="2165" vertical-scroll-proportion="0.0">
+            <state line="38" column="17" selection-start="1033" selection-end="1033" vertical-scroll-proportion="0.25742576">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Server.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Server.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/dansd/UDP/Server.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="39" column="51" selection-start="981" selection-end="981" vertical-scroll-proportion="0.9653465">
+            <state line="30" column="111" selection-start="729" selection-end="729" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -117,9 +118,9 @@
       <list>
         <option value="$PROJECT_DIR$/src/com/dansd/UDP/Client.java" />
         <option value="$PROJECT_DIR$/src/com/dansd/UDP/Listener.java" />
-        <option value="$PROJECT_DIR$/src/com/dansd/UDP/Messenger.java" />
         <option value="$PROJECT_DIR$/src/com/dansd/UDP/UDPTest.java" />
         <option value="$PROJECT_DIR$/src/com/dansd/UDP/Server.java" />
+        <option value="$PROJECT_DIR$/src/com/dansd/UDP/Messenger.java" />
       </list>
     </option>
   </component>
@@ -498,13 +499,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/dansd/UDP/Messenger.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="64" column="0" selection-start="2165" selection-end="2165" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/dansd/UDP/UDPTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="22" column="44" selection-start="683" selection-end="683" vertical-scroll-proportion="0.0">
@@ -514,10 +508,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/dansd/UDP/Server.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="51" selection-start="981" selection-end="981" vertical-scroll-proportion="0.9653465">
+        <state line="30" column="111" selection-start="729" selection-end="729" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/dansd/UDP/Messenger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="38" column="17" selection-start="1033" selection-end="1033" vertical-scroll-proportion="0.25742576">
+          <folding />
         </state>
       </provider>
     </entry>

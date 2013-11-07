@@ -26,7 +26,7 @@ public class Messenger {
         sessionPort = port;
         sessionHost = host;
     }
-    public void send(String message){
+    public void send(byte[] message){
         DatagramSocket clientSocket = null;
         try {
             clientSocket = new DatagramSocket();
@@ -40,7 +40,7 @@ public class Messenger {
             e.printStackTrace();  //To change body of catch statement use File | Settings | File Templates.
         }
         byte[] receiveData = new byte[1024];
-        byte[] sendData = message.getBytes();
+        byte[] sendData = message;
         DatagramPacket sendPacket  = new DatagramPacket(sendData, sendData.length, IP, sessionPort);
         try {
             clientSocket.send(sendPacket);
@@ -53,14 +53,14 @@ public class Messenger {
         } catch (IOException e) {
             e.printStackTrace();  //To change body of catch statement use File | Settings | File Templates.
         }
-        String responseString = new String(receivePacket.getData());
-        onResponse(responseString);
+        receiveData = receivePacket.getData();
+        onResponse(receiveData);
         clientSocket.close();
         }
 
     //User should override this
-    public void onResponse(String response){
-        System.out.println("RESPONSE: "+response);
+    public void onResponse(byte[] response){
+        System.out.println("RESPONSE: "+new String(response));
     }
 
 }
