@@ -1,20 +1,13 @@
 package com.dansd.UDP;
 
-import java.io.BufferedReader;
 import java.io.IOException;
-import java.io.InputStreamReader;
 import java.net.*;
 
-/**
- * Created with IntelliJ IDEA.
- * User: franciscodans
- * Date: 06/11/2013
- * Time: 13:03
- * To change this template use File | Settings | File Templates.
- */
-public class Messenger {
+
+public class Messenger extends Thread{
     private int sessionPort;
     private String sessionHost;
+    private byte[] currentMessage;
 
     public Messenger(){
         this("localhost");
@@ -27,36 +20,41 @@ public class Messenger {
         sessionHost = host;
     }
     public void send(byte[] message){
+        this.currentMessage = message;
+        this.run();
+    }
+
+    public void run(){
         DatagramSocket clientSocket = null;
         try {
             clientSocket = new DatagramSocket();
         } catch (SocketException e) {
-            e.printStackTrace();  //To change body of catch statement use File | Settings | File Templates.
+            e.printStackTrace();
         }
         InetAddress IP = null;
         try {
             IP = InetAddress.getByName(sessionHost);
         } catch (UnknownHostException e) {
-            e.printStackTrace();  //To change body of catch statement use File | Settings | File Templates.
+            e.printStackTrace();
         }
         byte[] receiveData = new byte[1024];
-        byte[] sendData = message;
+        byte[] sendData = currentMessage;
         DatagramPacket sendPacket  = new DatagramPacket(sendData, sendData.length, IP, sessionPort);
         try {
             clientSocket.send(sendPacket);
         } catch (IOException e) {
-            e.printStackTrace();  //To change body of catch statement use File | Settings | File Templates.
+            e.printStackTrace();
         }
         DatagramPacket receivePacket = new DatagramPacket(receiveData, receiveData.length);
         try {
             clientSocket.receive(receivePacket);
         } catch (IOException e) {
-            e.printStackTrace();  //To change body of catch statement use File | Settings | File Templates.
+            e.printStackTrace();
         }
         receiveData = receivePacket.getData();
         onResponse(receiveData);
         clientSocket.close();
-        }
+    }
 
     //User should override this
     public void onResponse(byte[] response){

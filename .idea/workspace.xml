@@ -9,14 +9,16 @@
     <list default="true" id="ad052d89-4fdc-4acd-8da2-b2f9c6b314bb" name="Default" comment="" />
     <ignored path="udpTest.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/UDPTest.java" changelist="ad052d89-4fdc-4acd-8da2-b2f9c6b314bb" time="1383761985054" ignored="false" />
-    <file path="/fragment.java" changelist="ad052d89-4fdc-4acd-8da2-b2f9c6b314bb" time="1383834685347" ignored="false" />
-    <file path="/Server.java" changelist="ad052d89-4fdc-4acd-8da2-b2f9c6b314bb" time="1383832395109" ignored="false" />
+    <file path="/UDPTest.java" changelist="ad052d89-4fdc-4acd-8da2-b2f9c6b314bb" time="1383842555021" ignored="false" />
+    <file path="/fragment.java" changelist="ad052d89-4fdc-4acd-8da2-b2f9c6b314bb" time="1383914471876" ignored="false" />
+    <file path="/Server.java" changelist="ad052d89-4fdc-4acd-8da2-b2f9c6b314bb" time="1383914449739" ignored="false" />
     <file path="/Client.java" changelist="ad052d89-4fdc-4acd-8da2-b2f9c6b314bb" time="1383757481427" ignored="false" />
-    <file path="$PROJECT_DIR$/../coketruck/src/co/uk/images/coketruck/MainActivity.java" changelist="ad052d89-4fdc-4acd-8da2-b2f9c6b314bb" time="1383834916764" ignored="false" />
-    <file path="/MainActivity.java" changelist="ad052d89-4fdc-4acd-8da2-b2f9c6b314bb" time="1383834913067" ignored="false" />
+    <file path="$PROJECT_DIR$/../coketruck/src/co/uk/images/coketruck/MainActivity.java" changelist="ad052d89-4fdc-4acd-8da2-b2f9c6b314bb" time="1383927876299" ignored="false" />
+    <file path="/MainActivity.java" changelist="ad052d89-4fdc-4acd-8da2-b2f9c6b314bb" time="1383927320864" ignored="false" />
     <file path="$PROJECT_DIR$/../coketruck/src/co/uk/images/coketruck/ImageInfo.java" changelist="ad052d89-4fdc-4acd-8da2-b2f9c6b314bb" time="1383834690394" ignored="false" />
-    <file path="/Messenger.java" changelist="ad052d89-4fdc-4acd-8da2-b2f9c6b314bb" time="1383837899413" ignored="false" />
+    <file path="/Messenger.java" changelist="ad052d89-4fdc-4acd-8da2-b2f9c6b314bb" time="1383929632173" ignored="false" />
+    <file path="/tickview.xml" changelist="ad052d89-4fdc-4acd-8da2-b2f9c6b314bb" time="1383914228814" ignored="false" />
+    <file path="$PROJECT_DIR$/../coketruck/res/layout/tickview.xml" changelist="ad052d89-4fdc-4acd-8da2-b2f9c6b314bb" time="1383914226921" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,7 +82,7 @@
       <file leaf-file-name="UDPTest.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/dansd/UDP/UDPTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="44" selection-start="683" selection-end="683" vertical-scroll-proportion="0.0">
+            <state line="11" column="129" selection-start="356" selection-end="356" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -89,8 +91,10 @@
       <file leaf-file-name="Messenger.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/dansd/UDP/Messenger.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="38" column="17" selection-start="1033" selection-end="1033" vertical-scroll-proportion="0.25742576">
-              <folding />
+            <state line="12" column="33" selection-start="259" selection-end="259" vertical-scroll-proportion="0.29654035">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -98,7 +102,7 @@
       <file leaf-file-name="Server.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/dansd/UDP/Server.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="111" selection-start="729" selection-end="729" vertical-scroll-proportion="0.0">
+            <state line="40" column="46" selection-start="898" selection-end="898" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -118,17 +122,17 @@
       <list>
         <option value="$PROJECT_DIR$/src/com/dansd/UDP/Client.java" />
         <option value="$PROJECT_DIR$/src/com/dansd/UDP/Listener.java" />
-        <option value="$PROJECT_DIR$/src/com/dansd/UDP/UDPTest.java" />
         <option value="$PROJECT_DIR$/src/com/dansd/UDP/Server.java" />
+        <option value="$PROJECT_DIR$/src/com/dansd/UDP/UDPTest.java" />
         <option value="$PROJECT_DIR$/src/com/dansd/UDP/Messenger.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="155" />
-    <option name="y" value="22" />
-    <option name="width" value="1382" />
-    <option name="height" value="754" />
+    <option name="x" value="447" />
+    <option name="y" value="68" />
+    <option name="width" value="1202" />
+    <option name="height" value="911" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -285,7 +289,7 @@
       <option name="ENABLE_SWING_INSPECTOR" value="false" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="udpTest" />
+      <module name="UDPLib" />
       <envs />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
@@ -326,7 +330,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="155" y="22" width="1382" height="754" extended-state="0" />
+    <frame x="447" y="68" width="1202" height="911" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
@@ -342,8 +346,8 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26422155" sideWeight="0.7527011" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24637681" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.30536333" sideWeight="0.8027813" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19721872" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -426,7 +430,9 @@
     <entry file="file://$PROJECT_DIR$/src/com/dansd/UDP/Messenger.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="64" column="0" selection-start="2165" selection-end="2165" vertical-scroll-proportion="0.0">
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -449,7 +455,9 @@
     <entry file="file://$PROJECT_DIR$/src/com/dansd/UDP/Messenger.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="64" column="0" selection-start="2165" selection-end="2165" vertical-scroll-proportion="0.0">
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -481,7 +489,9 @@
     <entry file="file://$PROJECT_DIR$/src/com/dansd/UDP/Messenger.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="24" column="127" selection-start="750" selection-end="750" vertical-scroll-proportion="0.0">
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -501,14 +511,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/dansd/UDP/UDPTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="44" selection-start="683" selection-end="683" vertical-scroll-proportion="0.0">
+        <state line="11" column="129" selection-start="356" selection-end="356" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/dansd/UDP/Server.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="111" selection-start="729" selection-end="729" vertical-scroll-proportion="0.0">
+        <state line="40" column="46" selection-start="898" selection-end="898" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -517,8 +527,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/dansd/UDP/Messenger.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="17" selection-start="1033" selection-end="1033" vertical-scroll-proportion="0.25742576">
-          <folding />
+        <state line="12" column="33" selection-start="259" selection-end="259" vertical-scroll-proportion="0.29654035">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
