@@ -1,10 +1,7 @@
 package com.dansd.UDP;
 
 import java.io.IOException;
-import java.net.DatagramPacket;
-import java.net.DatagramSocket;
-import java.net.InetAddress;
-import java.net.SocketException;
+import java.net.*;
 
 /**
  * Created with IntelliJ IDEA.
@@ -44,6 +41,8 @@ public class Server extends Thread{
         DatagramSocket serverSocket = null;
         try {
             serverSocket = new DatagramSocket(serverPort);
+        } catch(BindException e){
+            throw new IllegalArgumentException("This port is already in use");
         } catch (SocketException e) {
             e.printStackTrace();  //To change body of catch statement use File | Settings | File Templates.
         }
